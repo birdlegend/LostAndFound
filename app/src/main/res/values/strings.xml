@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LostAndFound</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_hint">标题</string>
+    <string name="phone_hint">手机</string>
+    <string name="describe_hint">描述</string>
+</resources>
