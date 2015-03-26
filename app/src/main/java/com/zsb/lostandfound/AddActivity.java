@@ -29,6 +29,7 @@ public class AddActivity extends BaseActivity implements View.OnClickListener {
     String title = "";
     String describe = "";
     String phone = "";
+    String objectId = "";
 
     @Override
     public void setContentView() {
@@ -54,6 +55,8 @@ public class AddActivity extends BaseActivity implements View.OnClickListener {
         old_title = getIntent().getStringExtra("title");
         old_describe = getIntent().getStringExtra("describe");
         old_phone = getIntent().getStringExtra("phone");
+        
+        
 
         edit_title.setText(old_title);
         edit_describe.setText(old_describe);

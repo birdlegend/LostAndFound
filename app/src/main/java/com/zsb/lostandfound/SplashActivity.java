@@ -33,8 +33,7 @@ public class SplashActivity extends BaseActivity {
     }
 
     public void goHome() {
-        Intent intent = new Intent(this, AddActivity.class);
-        intent.putExtra("from", "Found");
+        Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
         this.finish();
     }

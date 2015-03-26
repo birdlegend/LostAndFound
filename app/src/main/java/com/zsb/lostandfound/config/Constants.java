@@ -5,5 +5,5 @@ package com.zsb.lostandfound.config;
  */
 public class Constants {
     public final static String BMOB_APPID = "865742c54ba962bfc7b64c1ce3faf6ef";
-    
+    public static final int REQUESTCODE_ADD = 1;//添加失物/招领
 }
